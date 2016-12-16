@@ -1,0 +1,15 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /includes
+  static_dir: includes
+  application_readable: true
+- url: /firebase/firebaseLib.php
+  script: firebaseLib.php 
+- url: /firebaseInterface.php
+  script: firebaseInterface.php
+- url: /firebaseStub.php
+  script: firebaseStub.php
+- url: /sendnotification
+  script: index.php
