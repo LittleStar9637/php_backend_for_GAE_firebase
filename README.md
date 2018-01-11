@@ -1,4 +1,4 @@
-# php_backend_for_GAE_firebase
+# PHP script for firebase pushnotification
 
 
 This prject is php script for FCM notification.
